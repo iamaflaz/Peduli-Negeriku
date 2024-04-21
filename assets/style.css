@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --font-regular: 400;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2{
+  color: #1E4269;
+}
+
+/* navbar */
+.navbar{
+    background-color: #1E4269;
+}
+
+.navbar a{
+    color: white;
+}
+
+.btn{
+    color: white;
+}
+
+/* beranda */
+.aja{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ini pikir sendiri wes */
+
+/* ini diemin dulu */
+
+.card-title {
+  font-weight: bold;
+  font-size: var(--font-regular);
+}
+
+.card-text {
+  font-size: 12px;
+}
+
+.selengkapnya {
+  width: 100%;
+  text-align: end;
+}
+
+
+/* Footer */
+.footer{
+    background-color: #1E4269;
+    padding: 2rem;
+    color: white;
+}
+
+
